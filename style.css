@@ -1,1 +1,42 @@
+body {
+  background: black;
+}
 
+.wrap {
+	width: 405px;
+	margin: 20px auto;
+  padding: 0;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+  width: 195px;
+  height: 195px;
+  float: left;
+  opacity: 0.6;
+  margin: 3px;
+}
+
+.top-left {
+  border-top-left-radius: 195px;
+  background-color: green;
+}
+
+.top-right {
+  float: left;
+  border-top-right-radius: 195px;
+  background-color: red;
+  clear: right;
+}
+
+.bottom-left {
+  float: left;
+  border-bottom-left-radius: 195px;
+  background-color: yellow;
+  clear: left;
+}
+
+.bottom-right {
+  float: left;
+  border-bottom-right-radius: 195px;
+  background-color: blue;
+}
