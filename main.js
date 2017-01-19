@@ -1,15 +1,15 @@
 $(document).ready(function() {
-  $(".top-left").click(function(event) {
-		flash(".top-left", "#sound-top-left");
+  $(".btn1").click(function(event) {
+		flash(".btn1", "#sound1");
 	});
-	$(".top-right").click(function(event) {
-		flash(".top-right", "#sound-top-right");
+	$(".btn2").click(function(event) {
+		flash(".btn2", "#sound2");
 	});
-	$(".bottom-left").click(function(event) {
-		flash(".bottom-left", "#sound-bottom-left");
+	$(".btn3").click(function(event) {
+		flash(".btn3", "#sound3");
 	});
-	$(".bottom-right").click(function(event) {
-		flash(".bottom-right", "#sound-bottom-right");
+	$(".btn4").click(function(event) {
+		flash(".btn4", "#sound4");
 	});
 
   function flash(btn, sound){

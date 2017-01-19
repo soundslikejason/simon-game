@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 
-.top-left, .top-right, .bottom-left, .bottom-right {
+.btn1, .btn2, .btn3, .btn4 {
   width: 195px;
   height: 195px;
   float: left;
@@ -16,26 +16,26 @@ body {
   margin: 3px;
 }
 
-.top-left {
+.btn1 {
   border-top-left-radius: 195px;
   background-color: green;
 }
 
-.top-right {
+.btn2 {
   float: left;
   border-top-right-radius: 195px;
   background-color: red;
   clear: right;
 }
 
-.bottom-left {
+.btn3 {
   float: left;
   border-bottom-left-radius: 195px;
   background-color: yellow;
   clear: left;
 }
 
-.bottom-right {
+.btn4 {
   float: left;
   border-bottom-right-radius: 195px;
   background-color: blue;
