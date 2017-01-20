@@ -15,6 +15,7 @@ $(document).ready(function() {
   function flash(btn, sound){
 		$(btn).animate({opacity: 1}, 100);
 		$(btn).animate({opacity: 0.6}, 100);
+    $(sound).get(0).currentTime = 0;
     $(sound).get(0).play();
 	}
 });
