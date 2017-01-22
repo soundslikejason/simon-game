@@ -18,25 +18,20 @@ body {
 
 .btn1 {
   border-top-left-radius: 195px;
-  background-color: green;
+  background: green;
 }
 
 .btn2 {
-  float: left;
   border-top-right-radius: 195px;
-  background-color: red;
-  clear: right;
+  background: red;
 }
 
 .btn3 {
-  float: left;
   border-bottom-left-radius: 195px;
-  background-color: yellow;
-  clear: left;
+  background: yellow;
 }
 
 .btn4 {
-  float: left;
   border-bottom-right-radius: 195px;
-  background-color: blue;
+  background: blue;
 }
